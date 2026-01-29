@@ -1,0 +1,23 @@
+# Local .terraform directories (플러그인, 모듈 임시 파일)
+**/.terraform/*
+
+# .tfstate files (인프라 상태 파일 - 절대 업로드 금지!)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore variables file containing sensitive data (비밀 변수 파일)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
